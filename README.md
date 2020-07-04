@@ -44,9 +44,9 @@ function checkRandom(first, end) {
 		} else if (num == 6) {
 			numCheck = 7
 		}
-	    if (i >= 2) {
-	        tabelSource[i].children[numCheck].children[0].checked = true
-	    }
+		if (i >= 2) {
+			tabelSource[i].children[numCheck].children[0].checked = true
+		}
 	}
 }
 ```
