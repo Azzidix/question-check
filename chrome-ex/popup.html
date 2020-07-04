@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		table {
+			width: 300px;
+		}
+		table tr td button {
+			float: right;
+		}
+		button {
+			outline: none;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<tbody>
+			<tr>
+				<td>Single Checked</td>
+				<td>:</td>
+				<td>
+					<select name="single" id="single">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option selected value="6">6</option>
+					</select>
+				</td>
+				<td>
+					<button id="btnSingle">Apply</button>
+				</td>
+			</tr>
+			<tr>
+				<td>Random Checked</td>
+				<td>:</td>
+				<td>
+					<select name="randomOne" id="randomOne">
+						<option selected value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+					</select>
+					-
+					<select name="randomTwo" id="randomTwo">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option selected value="6">6</option>
+					</select>
+				</td>
+				<td>
+					<button id="btnRandom">Apply</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<script src="popup.js"></script>
+</body>
+</html>
